@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwiftMart | Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;600;700&family=Grenze:wght@400;500;600;700&family=Metal+Mania&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Swift<span>Mart</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="checkout.html">Checkout (<span id="cart-count">0</span>)</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Contact us</h1>
+    <p style="margin-bottom:1rem">Questions about a product or an order? Send us a message.</p>
+    <form id="contact-form" novalidate>
+      <div><label for="name">Name</label><input type="text" id="name"><span class="error"></span></div>
+      <div><label for="email">Email address</label><input type="email" id="email"><span class="error"></span></div>
+      <div><label for="message">Message</label><textarea id="message" rows="5"></textarea><span class="error"></span></div>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+    <p id="form-success" aria-live="polite"></p>
+  </main>
+
+  <footer>&copy; 2026 SwiftMart. Gadgets, accessories and home essentials.</footer>
+  <script src="themes.js"></script>
+</body>
+</html>

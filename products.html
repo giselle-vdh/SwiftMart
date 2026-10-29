@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwiftMart | Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;600;700&family=Grenze:wght@400;500;600;700&family=Metal+Mania&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Swift<span>Mart</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="checkout.html">Checkout (<span id="cart-count">0</span>)</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Products</h1>
+    <p id="added-message" class="error" style="color:#4caf50" aria-live="polite"></p>
+    <!-- cards were created with renderProducts() in themes.js, bcs it's easier and simplier to read-->
+    <section id="product-grid" class="product-grid"></section>
+  </main>
+
+  <footer>&copy; 2026 SwiftMart. Gadgets, accessories and home essentials.</footer>
+  <script src="themes.js"></script>
+</body>
+</html>
