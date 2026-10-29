@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SwiftMart | Checkout</title>
+  <title>SwiftMart | Contact</title>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;600;700&family=Grenze:wght@400;500;600;700&family=Metal+Mania&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,31 +13,21 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
-      <a href="checkout.html" class="active">Checkout (<span id="cart-count">0</span>)</a>
-      <a href="contact.html">Contact</a>
+      <a href="checkout.html">Checkout (<span id="cart-count">0</span>)</a>
+      <a href="contact.html" class="active">Contact</a>
     </nav>
   </header>
 
   <main>
-    <h1 class="page-title">Your cart</h1>
-    <div class="checkout-layout">
-      <section class="panel">
-        <div id="cart-items"></div>
-      </section>
-      <aside class="panel">
-        <h2>Order summary</h2>
-        <div class="summary-line"><span>Items</span><span id="summary-items">0</span></div>
-        <div class="summary-line summary-total"><span>Total</span><span id="summary-total">R0.00</span></div>
-        <h3 style="margin-top:1.2rem">Your details</h3>
-        <form id="order-form" novalidate>
-          <div><label for="order-name">Name</label><input type="text" id="order-name"><span class="error"></span></div>
-          <div><label for="order-email">Email address</label><input type="email" id="order-email"><span class="error"></span></div>
-          <div><label for="order-address">Delivery address</label><input type="text" id="order-address"><span class="error"></span></div>
-          <button class="btn" type="submit">Place order</button>
-        </form>
-        <p id="order-success" aria-live="polite"></p>
-      </aside>
-    </div>
+    <h1 class="page-title">Contact us</h1>
+    <p style="margin-bottom:1rem">Questions about a product or an order? Send us a message.</p>
+    <form id="contact-form" novalidate>
+      <div><label for="name">Name</label><input type="text" id="name"><span class="error"></span></div>
+      <div><label for="email">Email address</label><input type="email" id="email"><span class="error"></span></div>
+      <div><label for="message">Message</label><textarea id="message" rows="5"></textarea><span class="error"></span></div>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+    <p id="form-success" aria-live="polite"></p>
   </main>
 
   <footer>&copy; 2026 SwiftMart. Gadgets, accessories and home essentials.</footer>
