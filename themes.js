@@ -1,16 +1,16 @@
 // products are found here, its a lot easier than putting the info in html.
 const products = [
-  { id: 1, name: "Headphones",        price: 300.00, image: "images/Headphones.jpg",    description: "Over-ear wireless headphones with deep bass." },
-  { id: 2, name: "Band KeyChain",     price: 60.00,  image: "images/Korn-Keychain.jpg", description: "Metalic keychain of a band." },
-  { id: 3, name: "Red Lava Lamp",     price: 350.00, image: "images/Lava-Lamp.jpg",     description: "17 Inch Red Lava Lamp." },
-  { id: 4, name: "Power Bank",        price: 220.00, image: "images/Power-Bank.jpg",    description: "10 000mAh portable charger with two ports." },
-  { id: 5, name: "Bluetooth Speaker", price: 300.00, image: "images/JBL.jpg",           description: "Waterproof speaker with 12 hours of battery." },
-  { id: 6, name: "Wireless Mouse",    price: 150.00, image: "images/Wireless-Mouse.jpg",description: "Quiet-click mouse for work or gaming." },
-  { id: 7, name: "LED Desk Lamp",     price: 190.00, image: "images/Desk-Lamp.jpg",     description: "Dimmable lamp with three colour modes." },
-  { id: 8, name: "Phone Case",        price: 60.00,  image: "images/Phone-Case.jpg",    description: "Shockproof silicone iPhone case, matte black." }
+  { id: 1, name: "Headphones",        price: 300.00, image: "Headphones.jpg",     description: "Over-ear wireless headphones with deep bass." },
+  { id: 2, name: "Band KeyChain",     price: 60.00,  image: "Korn-Keychain.jpg",  description: "Metalic keychain of a band." },
+  { id: 3, name: "Red Lava Lamp",     price: 350.00, image: "Lava-Lamp.jpg",      description: "17 Inch Red Lava Lamp." },
+  { id: 4, name: "Power Bank",        price: 220.00, image: "Power-Bank.jpg",     description: "10 000mAh portable charger with two ports." },
+  { id: 5, name: "Bluetooth Speaker", price: 300.00, image: "JBL.jpg",            description: "Waterproof speaker with 12 hours of battery." },
+  { id: 6, name: "Wireless Mouse",    price: 150.00, image: "Wireless-Mouse.jpg", description: "Quiet-click mouse for work or gaming." },
+  { id: 7, name: "LED Desk Lamp",     price: 190.00, image: "Desk-Lamp.jpg",      description: "Dimmable lamp with three colour modes." },
+  { id: 8, name: "Phone Case",        price: 60.00,  image: "Phone-Case.jpg",     description: "Shockproof silicone iPhone case, matte black." }
 ];
 
-const CART_ICON = "images/Cart-Icon.png";
+const CART_ICON = "Cart-Icon.png";
 
 // allowing items added to the cart to be saved in user's localStorage so it survives page changes
 function getCart() {
