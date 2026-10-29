@@ -75,7 +75,7 @@ nav a:hover, nav a.active { border-bottom-color: var(--red); }
 .hero {
   background:
     linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.8)),
-    url('Images/Hero-Cover.jpg') center / cover no-repeat;
+    url('Hero-Cover.jpg') center / cover no-repeat;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
